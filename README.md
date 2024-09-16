@@ -23,5 +23,5 @@ I have limited compuational resources so i have used less data and hyper paramet
 
 ## The action invoking will only be used if the model which classifies whether the vector DB is supposed to be called or not decides that there is no need of vector db then only the action is going to be invoked.
 ### The actions which I am going to include are as follows - 
-###### Email writing- The Language model will write the content to send email to people on my behalf using my email id.
-###### Mathematical Calculation- Language models are not always correct at math so the model will just use the python operator for aritmetic calculation and give the correct output.
+#### Email writing- The Language model will write the content to send email to people on my behalf using my email id.
+#### Mathematical Calculation- Language models are not always correct at math so the model will just use the python operator for aritmetic calculation and give the correct output.
