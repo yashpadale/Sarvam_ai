@@ -7,3 +7,5 @@ I have used gradio for creating the frontend .
 ![Screenshot (12)](https://github.com/user-attachments/assets/e773f867-9dc7-4277-80e3-a083752a1ffc)
 ## This above is the working of the Semantic chunking for Retrieval Augmented Generation task.
 ####  I am using LM studio in backed to run the Langauge model which is the dolphin from mistral
+
+# For  deciding whehter for a particular prompt a vector DB needs to be called or not I am going to use classification where there will be two classes - Simple and RAG . If simple is detected no RAG needs to be called and if RAG is detected then we call for the RAG pipeline.
