@@ -1,4 +1,4 @@
-<start> How are you holding up these days? <end> <start> Simple <end> 
+<start> write an email to andrew@gmail.com about his admission in ulc for under graduate program.  <end> <start> Simple <end> 
 <start> Good afternoon! <end> <start> Simple <end> 
 <start> How’s the day treating you? <end> <start> Simple <end> 
 <start> How’s your weekend going? <end> <start> Simple <end> 
@@ -15,7 +15,7 @@
 <start> What are the primary factors influencing the distribution of population in India? <end>    <start> RAG <end>
 <start> Discuss the impact of technological advancements on economic growth. <end>   <start> RAG <end>
 <start> What’s the vibe today? <end> <start> Simple <end> 
-<start> What’s your day looking like? <end> <start> Simple <end> 
+<start> Add 30 to 40 and tell me the answer. <end> <start> Simple <end> 
 <start> What are the causes and consequences of inflation? <end>   <start> RAG <end>
 <start> How do the circulatory and respiratory systems work together in the human body?  <end>    <start> RAG <end>
 <start> How’s life treating you? <end> <start> Simple <end> 
@@ -36,7 +36,7 @@
 <start> What were the causes and consequences of the French Revolution? <end>  <start> RAG <end>
 <start> How do catalysts affect the rate of chemical reactions? <end>  <start> RAG <end>
 <start> What is Newton's First Law of Motion? <end>   <start> RAG <end>
-<start> How’s it hanging? <end> <start> Simple <end> 
+<start> what is 30 divided by 2.5 ? <end> <start> Simple <end> 
 <start> Discuss the effects of global warming on polar ice caps. <end>    <start> RAG <end>
 <start> Describe the process of nuclear fusion and its potential applications. <end>   <start> RAG <end>
 <start> How’s the week treating you? <end> <start> Simple <end> 
@@ -75,9 +75,9 @@
 <start> What are the main rivers of South America, and why are they important? <end>    <start> RAG <end>
 <start> Explain the concept of irony and its types. <end>   <start> RAG <end>
 <start> How’s your day so far? <end> <start> Simple <end> 
-<start> How’s everything flowing? <end> <start> Simple <end> 
+<start>  write an email to yash@gmail.com complaining about the service recieved and asking for refund. <end> <start> Simple <end> 
 <start> How’s life going for you? <end> <start> Simple <end> 
-<start> How’s your family? <end> <start> Simple <end> 
+<start> write an email to ojha@gmail.com for asking for his permission to let students play on the ground.  <end> <start> Simple <end> 
 <start> How do fiscal and monetary policies influence economic stability? <end>   <start> RAG <end>
 <start> How are you holding up? <end> <start> Simple <end> 
 <start> What is the role of enzymes in biochemical reactions?  <end>    <start> RAG <end>
@@ -142,8 +142,8 @@
 <start> What is the role of the judiciary in maintaining the rule of law?  <end>    <start> RAG <end>
 <start> What are you up to today? <end> <start> Simple <end> 
 <start> What are the main functions of money in an economy? <end>   <start> RAG <end>
-<start> How’s the grind going? <end> <start> Simple <end> 
-<start> What’s going on? <end> <start> Simple <end> 
+<start> What is the output of 123 multiplied by 46. <end> <start> Simple <end> 
+<start> write an email to mr. Virendre@gmail.com asking for status of the new project.  <end> <start> Simple <end> 
 <start> How’s your morning so far? <end> <start> Simple <end> 
 <start> How’s your schedule today? <end> <start> Simple <end> 
 <start> How does point of view affect the narrative of a story? <end>   <start> RAG <end>
