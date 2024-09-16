@@ -1,0 +1,159 @@
+<start> How are you holding up these days? <end> <start> Simple <end> 
+<start> Good afternoon! <end> <start> Simple <end> 
+<start> How’s the day treating you? <end> <start> Simple <end> 
+<start> How’s your weekend going? <end> <start> Simple <end> 
+<start> Hey! <end> <start> Simple <end> 
+<start> What’s going on with you? <end> <start> Simple <end> 
+<start> How’s the hustle going? <end> <start> Simple <end> 
+<start> How’s your day going? <end> <start> Simple <end> 
+<start> Explain the concept of gravitational force and its dependence on mass and distance. <end>   <start> RAG <end>
+<start> Explain the concept of separation of powers in the U.S. government.  <end>    <start> RAG <end>
+<start> Describe the process of natural selection and its role in evolution.  <end>    <start> RAG <end>
+<start> What are the key elements of a well-structured essay? <end>   <start> RAG <end>
+<start> Describe the impact of the Industrial Revolution on European societies.<end>   <start> RAG <end>
+<start> Good evening! <end> <start> Simple <end> 
+<start> What are the primary factors influencing the distribution of population in India? <end>    <start> RAG <end>
+<start> Discuss the impact of technological advancements on economic growth. <end>   <start> RAG <end>
+<start> What’s the vibe today? <end> <start> Simple <end> 
+<start> What’s your day looking like? <end> <start> Simple <end> 
+<start> What are the causes and consequences of inflation? <end>   <start> RAG <end>
+<start> How do the circulatory and respiratory systems work together in the human body?  <end>    <start> RAG <end>
+<start> How’s life treating you? <end> <start> Simple <end> 
+<start> Explain the concept of federalism and its application in different countries.  <end>    <start> RAG <end>
+<start> What is the theory of relativity, and how does it alter our understanding of space and time? <end>   <start> RAG <end>
+<start> What were the major events leading to the fall of the Berlin Wall in 1989? <end>  <start> RAG <end>
+<start> Nice to see you! <end> <start> Simple <end> 
+<start> How’s the start of your day? <end> <start> Simple <end> 
+<start> What are the characteristics of the Shakespearean sonnet? <end>   <start> RAG <end>
+<start> What have you been up to lately? <end> <start> Simple <end> 
+<start> What were the significant outcomes of the Treaty of Versailles (1919)? <end>  <start> RAG <end>
+<start> What’s on your agenda today? <end> <start> Simple <end> 
+<start> How are you feeling today? <end> <start> Simple <end> 
+<start> Explain the phenomenon of diffraction and its effects on light waves. <end>   <start> RAG <end>
+<start> What are the basic principles of the periodic table? <end>  <start> RAG <end>
+<start> How does the electoral system work in a parliamentary democracy?  <end>    <start> RAG <end>
+<start> How are things on your end? <end> <start> Simple <end> 
+<start> What were the causes and consequences of the French Revolution? <end>  <start> RAG <end>
+<start> How do catalysts affect the rate of chemical reactions? <end>  <start> RAG <end>
+<start> What is Newton's First Law of Motion? <end>   <start> RAG <end>
+<start> How’s it hanging? <end> <start> Simple <end> 
+<start> Discuss the effects of global warming on polar ice caps. <end>    <start> RAG <end>
+<start> Describe the process of nuclear fusion and its potential applications. <end>   <start> RAG <end>
+<start> How’s the week treating you? <end> <start> Simple <end> 
+<start> Hope you’re feeling well! <end> <start> Simple <end> 
+<start> Describe the difference between microeconomics and macroeconomics. <end>   <start> RAG <end>
+<start> How’s your evening going? <end> <start> Simple <end> 
+<start> What are the responsibilities of a citizen in a democratic state?  <end>    <start> RAG <end>
+<start> What’s up with you? <end> <start> Simple <end> 
+<start> Explain the concept of GDP and its importance in measuring economic performance. <end>   <start> RAG <end>
+<start> Explain the concept of plate tectonics and its role in the formation of mountains. <end>    <start> RAG <end>
+<start> It’s been a while, how are you? <end> <start> Simple <end> 
+<start> What are the fundamental rights guaranteed by the Indian Constitution?  <end>    <start> RAG <end>
+<start> What is Ohm’s Law, and how is it used in electrical circuits? <end>   <start> RAG <end>
+<start> What are the effects of unemployment on an economy? <end>   <start> RAG <end>
+<start> Long time no see! <end> <start> Simple <end> 
+<start> Explain the concept of genetic inheritance and Mendel's laws.  <end>    <start> RAG <end>
+<start> How’s everything coming along? <end> <start> Simple <end> 
+<start> What were the main causes of the American Revolution? <end>   <start> RAG <end>
+<start> What is the law of conservation of mass in chemical reactions? <end>  <start> RAG <end>
+<start> What is the principle of supply and demand, and how does it affect market prices?  <end>   <start> RAG <end>
+<start> What is the role of international trade in the global economy? <end>   <start> RAG <end>
+<start> What is the difference between speed and velocity? <end>   <start> RAG <end>
+<start> What is the significance of Avogadro's number in chemistry? <end>  <start> RAG <end>
+<start> How did the spread of Islam influence medieval European societies? <end>   <start> RAG <end>
+<start> Hope you’re doing well! <end> <start> Simple <end> 
+<start> Any plans for the day? <end> <start> Simple <end> 
+<start> Good morning! <end> <start> Simple <end> 
+<start> What are the major physical features of Africa? <end>    <start> RAG <end>
+<start> How’s it going? <end> <start> Simple <end> 
+<start> What are the key principles of democratic governance?  <end>    <start> RAG <end>
+<start> How does the setting contribute to the development of a story? <end>   <start> RAG <end><start> How are you? <end> <start> Simple <end> 
+<start> What are the main functions of the cell membrane?  <end>    <start> RAG <end>
+<start> How do redox reactions work, and what are their applications? <end>  <start> RAG <end>
+<start> How are things shaping up for you? <end> <start> Simple <end> 
+<start> How’s the vibe today? <end> <start> Simple <end> 
+<start> What are the main rivers of South America, and why are they important? <end>    <start> RAG <end>
+<start> Explain the concept of irony and its types. <end>   <start> RAG <end>
+<start> How’s your day so far? <end> <start> Simple <end> 
+<start> How’s everything flowing? <end> <start> Simple <end> 
+<start> How’s life going for you? <end> <start> Simple <end> 
+<start> How’s your family? <end> <start> Simple <end> 
+<start> How do fiscal and monetary policies influence economic stability? <end>   <start> RAG <end>
+<start> How are you holding up? <end> <start> Simple <end> 
+<start> What is the role of enzymes in biochemical reactions?  <end>    <start> RAG <end>
+<start> Discuss the significance of the Magna Carta in British history. <end>  <start> RAG <end>
+<start> Discuss the significance of civic participation in a democratic society.  <end>    <start> RAG <end>
+<start> How are things with you? <end> <start> Simple <end> 
+<start> How’s your mood today? <end> <start> Simple <end> 
+<start> What is the significance of foreshadowing in literature? <end>   <start> RAG <end>
+<start> Hope you’re having a nice day! <end> <start> Simple <end> 
+<start> Hello! <end> <start> Simple <end> 
+<start> Describe the use of symbolism in a piece of literature. <end>   <start> RAG <end>
+<start> How does the principle of conservation of momentum apply to collisions? <end>   <start> RAG <end>
+<start> What are the major climatic zones of the Earth, and how do they affect biodiversity? <end>    <start> RAG <end>
+<start> How’s everything been? <end> <start> Simple <end> 
+<start> What’s cooking? <end> <start> Simple <end> 
+<start> How do literary devices enhance the meaning of a text? <end>   <start> RAG <end>
+<start> How’s your day panning out? <end> <start> Simple <end> 
+<start> How’s life? <end> <start> Simple <end> 
+<start> What are the differences between prokaryotic and eukaryotic cells?  <end>    <start> RAG <end>
+<start> How are things going on your side? <end> <start> Simple <end> 
+<start> Explain the concept of market equilibrium. <end>   <start> RAG <end>
+<start> How’s your week been? <end> <start> Simple <end> 
+<start> How’s your night going? <end> <start> Simple <end> 
+<start> Hope you’re having a productive day! <end> <start> Simple <end> 
+<start> How do plants adapt to different environmental conditions?  <end>    <start> RAG <end>
+<start> How’s work/school/life? <end> <start> Simple <end> 
+<start> Describe the process of distillation and its uses. <end>  <start> RAG <end>
+<start> How’s everything? <end> <start> Simple <end> 
+<start> What is the significance of the Ring of Fire in relation to volcanic activity? <end>    <start> RAG <end>
+<start> Hope your week’s going smoothly! <end> <start> Simple <end> 
+<start> What is the role of the media in a democratic society?  <end>    <start> RAG <end>
+<start> What’s going on over there? <end> <start> Simple <end> 
+<start> What’s shaking? <end> <start> Simple <end> 
+<start> What’s happening in your world? <end> <start> Simple <end> 
+<start> How’s it going with you? <end> <start> Simple <end> 
+<start> How do ocean currents affect the climate of coastal regions? <end>    <start> RAG <end>
+<start> Hope you’re having a good day! <end> <start> Simple <end> 
+<start> Who were the key figures in the American Civil Rights Movement? <end>  <start> RAG <end>
+<start> How does local government differ from central government in terms of powers and responsibilities?  <end>    <start> RAG <end>
+<start> How’s the weather over there? <end> <start> Simple <end> 
+<start> Explain the concept of molarity and its calculation. <end>  <start> RAG <end>
+<start> How have you been? <end> <start> Simple <end> 
+<start> What’s new? <end> <start> Simple <end> 
+<start> Hi there! <end> <start> Simple <end> 
+<start> What are the different types of RNA, and what are their functions?  <end>    <start> RAG <end>
+<start> What are the stages of mitosis, and how do they contribute to cell division?   <end>    <start> RAG <end>
+<start> Describe the differences between ionic and covalent bonds. <end>  <start> RAG <end>
+<start> What are you working on today? <end> <start> Simple <end> 
+<start> How does metaphor differ from simile in literary analysis? <end>   <start> RAG <end>
+<start> What’s up? <end> <start> Simple <end> 
+<start> How’s your health? <end> <start> Simple <end> 
+<start> How’s the situation around you? <end> <start> Simple <end> 
+<start> How do human activities contribute to desertification in arid regions? <end>    <start> RAG <end>
+<start> What are the main themes of "To Kill a Mockingbird" by Harper Lee? <end>   <start> RAG <end>
+<start> Howdy! <end> <start> Simple <end> 
+<start> How’s your energy today? <end> <start> Simple <end> 
+<start> Who was Julius Caesar, and what was his role in the transition from the Roman Republic to the Roman Empire? <end>  <start> RAG <end>
+<start> What are the different types of chemical reactions, and how are they classified? <end>  <start> RAG <end>
+<start> How’s the situation over there? <end> <start> Simple <end> 
+<start> Explain the concept of pH and its importance in chemistry. <end>  <start> RAG <end>
+<start> Good to see you! <end> <start> Simple <end> 
+<start> What is the role of the judiciary in maintaining the rule of law?  <end>    <start> RAG <end>
+<start> What are you up to today? <end> <start> Simple <end> 
+<start> What are the main functions of money in an economy? <end>   <start> RAG <end>
+<start> How’s the grind going? <end> <start> Simple <end> 
+<start> What’s going on? <end> <start> Simple <end> 
+<start> How’s your morning so far? <end> <start> Simple <end> 
+<start> How’s your schedule today? <end> <start> Simple <end> 
+<start> How does point of view affect the narrative of a story? <end>   <start> RAG <end>
+<start> Describe the process of photosynthesis and its importance to plants. <end>    <start> RAG <end>
+<start> What’s good? <end> <start> Simple <end> 
+<start> Who was the first emperor of China, and what was his major contribution to Chinese history? <end>  <start> RAG <end>
+<start> How does the Doppler effect relate to the change in frequency of waves? <end>   <start> RAG <end>
+<start> Describe the impact of deforestation on the Amazon Rainforest. <end>    <start> RAG <end>
+<start> How’s your mood today? <end> <start> Simple <end> 
+<start> What are the different types of energy, and how are they transformed? <end>   <start> RAG <end>
+<start> How are you getting by? <end> <start> Simple <end> 
+<start> What’s happening? <end> <start> Simple <end> 
+<start> What’s up with your day today? <end> <start> Simple <end> 
