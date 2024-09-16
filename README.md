@@ -1,4 +1,8 @@
-I have used BERT to get the embeddings of the text in the ncert pdf and used Facebook AI Similarity Search library called  FAISS in short for similarity search in vectors as the pinecone which i explored was not giving any free use so i used the alternative and based on the similarity of the prompt and the different chunks based on the similar vector search using FAISS the chunk with highest similarity is chosen and the the chunk is added to the prompt of the user and given to the Language model , I have used LM studio to inference the language model as it is easy , less resource intensive  and effecient for the use case in place of using hugging face models.
+I have implemented a Retrieval-Augmented Generation (RAG) system for the NCERT dataset by leveraging BERT to generate embeddings from the text within the NCERT PDF. For the similarity search, I opted to use Facebook AI Similarity Search (FAISS)—a highly efficient open-source library for similarity search in dense vectors—due to its performance and resource efficiency.
+
+Initially, I explored Pinecone for vector storage and search; however, its limited free usage led me to select FAISS as a suitable alternative. The system works by computing the similarity between the user's query and various text chunks extracted from the NCERT documents. FAISS identifies the chunk with the highest similarity based on vector distance, and this most relevant chunk is appended to the user’s prompt.
+
+For inference, instead of using Hugging Face models, I have integrated LM Studio, which serves as a lightweight, resource-efficient, and user-friendly alternative. This approach allows for smoother integration and faster inference, making the overall system both scalable and practical for real-world use cases.
 
 ![Screenshot (12)](https://github.com/user-attachments/assets/e773f867-9dc7-4277-80e3-a083752a1ffc)
 ## This above is the working of the Semantic chunking for Retrieval Augmented Generation task.
