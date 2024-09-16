@@ -19,3 +19,9 @@ I have limited compuational resources so i have used less data and hyper paramet
 #### The size of the pretrained models is too much if we compare it to the output we are recieving from it.
 #### If we quantize small language model for this task  the size is around 100 GB but the performance quality reduces.
 #### If we train our own model for this task it will perform well , we know the data it is trained on , the size od the model need not be that high due to simplicity of the task . 
+
+
+## The action invoking will only be used if the model which classifies whether the vector DB is supposed to be called or not decides that there is no need of vector db then only the action is going to be invoked.
+### The actions which I am going to include are as follows - 
+###### Email writing- The Language model will write the content to send email to people on my behalf using my email id.
+###### Mathematical Calculation- Language models are not always correct at math so the model will just use the python operator for aritmetic calculation and give the correct output.
