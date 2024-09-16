@@ -25,3 +25,6 @@ I have limited compuational resources so i have used less data and hyper paramet
 ### The actions which I am going to include are as follows - 
 #### Email writing- The Language model will write the content to send email to people on my behalf using my email id.
 #### Mathematical Calculation- Language models are not always correct at math so the model will just use the python operator for aritmetic calculation and give the correct output.
+
+### How it works
+#### I will train another model which will detect whether user has said to send mail or perform a mathematical calculation and then if user has then the language model will be asked the output in a json and then the json will be processed in a rule based method and the task will be executed and the user s action will be performed using pythons exec function.
