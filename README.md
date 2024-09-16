@@ -13,8 +13,9 @@ I have used gradio for creating the frontend .
 
 ### For this task we can use simple ML models like K-means or naive bayes models but if the model which we have trained gives wrong output it can hamper the quality for our services so I will use a transformer to train the classification model .
 ## I will use my own code - https://github.com/yashpadale/Transformer_Pytorch which has all necessary code for creating our own custome transformer from scratch .where we can just enter our txt the hyper parameters and we can train our model.
+I have limited compuational resources so i have used less data and hyper parameters so i will also test my model for the task with prompts which are similar to ones in the training data which is in the classification.txt.
 # The following are the reasons why i am not using a pretrained model for the task - 
-## The pretrained models are trained for complex task than just text classification.
-## The size of the pretrained models is too much if we compare it to the output we are recieving from it.
-## If we quantize small language model for this task  the size is around 100 GB but the performance quality reduces.
-## If we train our own model for this task it will perform well , we know the data it is trained on , the size od the model need not be that high due to simplicity of the task . 
+#### The pretrained models are trained for complex task than just text classification.
+#### The size of the pretrained models is too much if we compare it to the output we are recieving from it.
+#### If we quantize small language model for this task  the size is around 100 GB but the performance quality reduces.
+#### If we train our own model for this task it will perform well , we know the data it is trained on , the size od the model need not be that high due to simplicity of the task . 
