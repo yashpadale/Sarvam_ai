@@ -1,0 +1,40 @@
+<start> Multiply 15 by 3. <end> <start> Calculation  <end> 
+<start> Can you send an email to the IT department head manish@gmail.com about the system issue? <end> <start> Email  <end> 
+<start> Compose an email to the vendor healthGrocers@gmail.com requesting a product catalog. <end> <start> Email  <end> 
+<start> Multiply 7 by 6 and tell me the result. <end> <start> Calculation  <end> 
+<start> What do you get when you divide 56 by 8? <end> <start> Calculation  <end> 
+<start> Subtract 14 from 65. <end> <start> Calculation  <end> 
+<start> Can you draft an email to the CEO anirudhha@gmail.com thanking them for the opportunity? <end> <start> Email  <end> 
+<start> Add 27 and 33. <end> <start> Calculation  <end> 
+<start> Subtract 18 from 90. <end> <start> Calculation  <end> 
+<start> Can you draft an email to HR  sayali@gmail.com requesting a leave? <end> <start> Email  <end> 
+<start> Calculate 100 minus 37. <end> <start> Calculation  <end> 
+<start> Draft an email to request feedback from the interviewer karan@gmail.com . <end> <start> Email  <end> 
+<start> Can you send an email to finance head  nishita@gmail.com requesting a copy of the invoice? <end> <start> Email  <end> 
+<start> Compose an email to the supplier nilesh@gmail.com about a delayed shipment. <end> <start> Email  <end> 
+<start> Calculate the result of 15 minus 7. <end> <start> Calculation  <end> 
+<start> Divide 81 by 9 and give me the result. <end> <start> Calculation  <end> 
+<start> Send an email to my colleague krishna@gmail.com  regarding the meeting minutes. <end> <start> Email  <end> 
+<start> Send an email to the training coordinator mansi@gmail.com  asking for session details. <end> <start> Email  <end> 
+<start> What is 100 minus 45? <end> <start> Calculation  <end> 
+<start> Please write an email to notify the staff head babu@gmail.com  about the policy changes. <end> <start> Email  <end> 
+<start> What is 9 multiplied by 8? <end> <start> Calculation  <end> 
+<start> Find the quotient of 48 divided by 6. <end> <start> Calculation  <end> 
+<start> Send an email to the legal team head arya@gmail.com asking for advice on the contract. <end> <start> Email  <end> 
+<start> Write an email to the client  volgaIndustries@gmail.com informing them of the delivery schedule. <end> <start> Email  <end> 
+<start> Please send a reminder email to the team leader vikas@gmail.com about tomorrow's meeting. <end> <start> Email  <end> 
+<start> Please send an email to the recruiter akshay@gmail.com following up on the interview. <end> <start> Email  <end> 
+<start> Draft an email to the sales department head vinay@gmail.com  requesting monthly reports. <end> <start> Email  <end> 
+<start> Find the total of 120 plus 30. <end> <start> Calculation  <end> 
+<start> Please send an email to my manager mohit@gmail.com about the project update. <end> <start> Email  <end> 
+<start> Calculate 12 times 4. <end> <start> Calculation  <end> 
+<start> What is 8 multiplied by 12? <end> <start> Calculation  <end> 
+<start> What is the result of dividing 72 by 9? <end> <start> Calculation  <end> 
+<start> Write an email to my professor manisha@gmail.com asking for an extension on the assignment. <end> <start> Email  <end> 
+<start> What is the sum of 50 and 25? <end> <start> Calculation  <end> 
+<start> What is 55 plus 45? <end> <start> Calculation  <end> 
+<start> What is 25 plus 30? <end> <start> Calculation  <end> 
+<start> Send a follow-up email to the client canvasolutions@gmail.com regarding the proposal. <end> <start> Email  <end> 
+<start> Send an email to the customer harsh@gmail.com confirming their order. <end> <start> Email  <end> 
+<start> Please send a thank-you email to our teacher siddhesh@gmail.com for their support. <end> <start> Email  <end> 
+<start> What is 84 divided by 12? <end> <start> Calculation  <end> 
