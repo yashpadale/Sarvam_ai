@@ -1,0 +1,119 @@
+import PyPDF2
+import re
+import nltk
+from nltk.tokenize import sent_tokenize
+import numpy as np
+import faiss
+import pinecone
+import torch
+from transformers import BertTokenizer, BertModel
+from openai import OpenAI
+
+
+client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
+
+
+# nltk.download('punkt')
+
+
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+model = BertModel.from_pretrained('bert-base-uncased')
+
+
+def get_sentence_embeddings(sentences):
+    inputs = tokenizer(sentences, return_tensors='pt', padding=True, truncation=True, max_length=512)
+    with torch.no_grad():
+        outputs = model(**inputs)
+        embeddings = outputs.last_hidden_state.mean(dim=1)
+    return embeddings.numpy()
+
+
+def chunk_text_semantically(text, max_length=128):
+    sentences = sent_tokenize(text)
+    sentence_embeddings = get_sentence_embeddings(sentences)
+
+    chunks = []
+    current_chunk = []
+    current_chunk_length = 0
+
+    for i, sentence in enumerate(sentences):
+        sentence_length = len(tokenizer.tokenize(sentence))
+
+        if current_chunk_length + sentence_length <= max_length:
+            current_chunk.append(sentence)
+            current_chunk_length += sentence_length
+        else:
+            chunks.append(' '.join(current_chunk))
+            current_chunk = [sentence]
+            current_chunk_length = sentence_length
+
+    if current_chunk:
+        chunks.append(' '.join(current_chunk))
+
+    return chunks
+def extract_text_from_pdf(pdf_path):
+    with open(pdf_path, 'rb') as file:
+        reader = PyPDF2.PdfReader(file) 
+        text = ""
+        for page_num in range(len(reader.pages)): 
+            text += reader.pages[page_num].extract_text()
+        return text
+
+
+def get_semantic_chunk():
+    pdf_path = r"C:\Users\Yash\Downloads\iesc111.pdf"
+    text=extract_text_from_pdf(pdf_path)
+    # print(text)
+    chunks = chunk_text_semantically(text)
+    #print(chunks)
+    return chunks
+
+
+def get_chunk_embeddings(chunks):
+   
+    inputs = tokenizer(chunks, return_tensors='pt', padding=True, truncation=True, max_length=512)
+    input_ids = inputs['input_ids']
+    attention_mask = inputs['attention_mask']
+
+    
+    with torch.no_grad():
+        outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+        last_hidden_states = outputs.last_hidden_state
+
+        chunk_embeddings = last_hidden_states.mean(dim=1)
+
+    return chunk_embeddings.numpy()
+chunks=get_semantic_chunk()
+
+chunk_embeddings = get_chunk_embeddings(chunks)
+
+
+
+def get_model_response(prompt):
+    completion = client.chat.completions.create(
+        model="TheBloke/dolphin-2.1-mistral-7B-GGUF",
+        messages=[
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.9,
+    )
+    return completion.choices[0].message.content
+
+
+dimension = chunk_embeddings.shape[1]
+index = faiss.IndexFlatL2(dimension)
+index.add(chunk_embeddings)
+
+
+def get_chunk(input_prompt:str)->int:
+    query_embedding = get_chunk_embeddings([input_prompt])
+    k = 1
+    distances, indices = index.search(query_embedding, k)
+    indices=indices[0]
+    return indices[0]
+
+def get_answer(prompt):
+    chunk_index = get_chunk(prompt)
+    prompt = prompt + ' ' + chunks[chunk_index]
+    output = get_model_response(prompt)
+    return prompt,output
