@@ -19,6 +19,9 @@ I have limited compuational resources so i have used less data and hyper paramet
 #### The size of the pretrained models is too much if we compare it to the output we are recieving from it.
 #### If we quantize small language model for this task  the size is around 100 GB but the performance quality reduces.
 
+## I have not uploaded my model but i have uploaded the code which is in my repo as i have mentioned above and the data to train the model .
+## The model which i have trained will work only for few prompts as the size of data is less on which the model is trained.
+
 
 
 #### If we train our own model for this task it will perform well , we know the data it is trained on , the size od the model need not be that high due to simplicity of the task . 
