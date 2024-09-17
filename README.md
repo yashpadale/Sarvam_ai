@@ -27,6 +27,6 @@ I have limited compuational resources so i have used less data and hyper paramet
 #### Mathematical Calculation- Language models are not always correct at math so the model will just use the python operator for aritmetic calculation and give the correct output.
 
 ### How it works
-#### I will train another model which will detect whether user has said to send mail or perform a mathematical calculation and then if user has then the language model will be asked the output in a json and then the json will be processed in a rule based method and the task will be executed and the user s action will be performed using pythons exec function. The actions are in the actions.txt 
+#### I will train another model which will detect whether user has said to send mail , perform a mathematical calculation or simple greetings or casual conversations  and then if user has then the language model will be asked the output in a json and then the json will be processed in a rule based method and the task will be executed and the user s action will be performed using pythons exec function. The actions are in the actions.txt 
 ### The above models I am using are trained on very small data so will not be effecient for all examples if the data size and compute is increased then they can work well.
 ## Following is a video which will show all of the task given in the assignement .i.e effecient chunking for task which need RAG and no chunking for task which do not . Actions like sending email and using python operator for mathematical caluclations.
