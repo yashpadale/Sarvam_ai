@@ -18,6 +18,9 @@ I have limited compuational resources so i have used less data and hyper paramet
 #### The pretrained models are trained for complex task than just text classification.
 #### The size of the pretrained models is too much if we compare it to the output we are recieving from it.
 #### If we quantize small language model for this task  the size is around 100 GB but the performance quality reduces.
+
+
+
 #### If we train our own model for this task it will perform well , we know the data it is trained on , the size od the model need not be that high due to simplicity of the task . 
 
 
@@ -29,4 +32,19 @@ I have limited compuational resources so i have used less data and hyper paramet
 ### How it works
 #### I will train another model which will detect whether user has said to send mail , perform a mathematical calculation or simple greetings or casual conversations  and then if user has then the language model will be asked the output in a json and then the json will be processed in a rule based method and the task will be executed and the user s action will be performed using pythons exec function. The actions are in the actions.txt 
 ### The above models I am using are trained on very small data so will not be effecient for all examples if the data size and compute is increased then they can work well.
-## Following is a video which will show all of the task given in the assignement .i.e effecient chunking for task which need RAG and no chunking for task which do not . Actions like sending email and using python operator for mathematical caluclations.
+## Following are two  videos which will show all of the task given in the assignement .i.e effecient chunking for task which need RAG and no chunking for task which do not . Actions like sending email and using python operator for mathematical caluclations.
+### This one does the effeicent RAG , it predicts accurately when RAG is to be used when not . When RAG is used the correct chunk is sent to the language model. It also shows the action of using pythons operator for doing mathematical operations.
+
+
+
+https://github.com/user-attachments/assets/5d1902cc-c822-4a15-bd12-388648fbfe8f
+
+
+
+### This one shows how the Language model i am using to sent emails on my behalf using the smtp library of python with gmail . 
+
+
+
+https://github.com/user-attachments/assets/7adb1984-5308-4fab-b413-e06282ebaac7
+
+
